@@ -2,7 +2,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-//time-complexi
+//time-complexity - O(log(n))
 bool binarySearch(vector<int> &v,int l,int r,int num){
    if(l>r)
     return false;
