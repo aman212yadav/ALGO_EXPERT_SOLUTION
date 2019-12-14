@@ -1,5 +1,5 @@
 
-//problem - given a number n size array and a number A ,find quadraple whose sum is equal to A.
+//problem - given n size array and a target sum ,find all quadraple whose sum is equal to A.
 
 #include<bits/stdc++.h>
 using namespace std;
