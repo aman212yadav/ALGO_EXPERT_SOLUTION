@@ -1,5 +1,12 @@
+// problem link - > https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+
 #include<bits/stdc++.h>
 using namespace std;
+
+
+
+// time complexity  - O(N*W)
+// space complexity - O(N*W)
 
 int knapsack_problem(int W,int weight[],int val[],int n){
 
