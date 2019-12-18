@@ -6,6 +6,7 @@ using namespace std;
 
 // time  complexity - O(E+V)
 // space complexity - O(V)
+
 void topologicalSort(int V,int E,int u,int vis[],vector<int> gr[],stack<int> &stac){
        vis[u]=1;
        for(auto v : gr[u]){
