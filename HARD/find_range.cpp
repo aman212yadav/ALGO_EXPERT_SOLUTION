@@ -22,6 +22,8 @@ int binarySearch(vector<int> arr,int target,bool isLeft){
 return ans;
 }
 
+// time complexity  - O(log(n))
+// space complexity - O(1)
 pair<int,int> findRange(vector<int> arr,int target){
 
             pair<int,int> range;
